@@ -1,0 +1,21 @@
+- Data dtypes: "int, float, operations on integers and floats, ==, != bool, string, list, tuple, dictionary" --> data_types
+
+- print --> data_types
+
+- input --> input, str(), int()
+
+- if, elif, else, (and, or, not) --> if
+
+- while, for --> loops
+
+- List declaration, element reach, element change, index(), list slice, element add(append), extend(), insert(), element delete, pop, list in a list --> lists
+
+- Tuple declaration, element reach, element add(append) ???, element delete ??? --> tuples
+
+- List copy --> lists
+
+- Dictionary declaration, keys, values --> dictionaries
+
+- Function w/o arguments, w/ arguments, hypotenuse, return, lambda --> functions
+
+- import a function --> import
