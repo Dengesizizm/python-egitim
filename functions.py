@@ -1,24 +1,22 @@
 
-
-# def my_print(arg1):
-#     print(arg1)
+def my_print(arg1):
+    print(arg1)
 
 
 def addition(arg1, arg2):
-    return (arg1 + arg2)
+    sum = arg1 + arg2
+    return sum
 
-# my_addition = addition(8, 9)
+# printlenecek = addition(5, 7)
 #
-# print("My addition is: ", my_addition)
+# print(printlenecek)
 
 def hypotenuse(arg1, arg2):
     squares = arg1**2 + arg2**2
-    square_root = squares**(1/2)
+    square_root = squares**(0.5)
     return square_root
 
-# my_hypotenuse = hypotenuse(3, 4)
-# print(my_hypotenuse)
+# def ajsgdjhas(a, b):
+#     return (a**2 + b**2)**0.5
 
-# sum = lambda x, y: x + y
-#
-# print(sum(2, 3))
+my_result = hypotenuse(3, 4)

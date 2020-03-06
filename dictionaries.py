@@ -1,6 +1,3 @@
-my_first_dictionary = {"Arda": "Özarslan", 44: "Master Number", "METU": "MECH"}
+my_dictionary = {"METU": "MECH", 123: 234, 44: "Master Number"}
 
-print(my_first_dictionary.keys())
-print(my_first_dictionary.values())
-
-
+print(my_dictionary.values())

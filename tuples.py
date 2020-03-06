@@ -1,7 +1,9 @@
-my_tuple = (23, "aakdhfkj", 324)
+my_tuple = (23, "jagfjs", 324)
 
+print(id(my_tuple))
 
+my_tuple = ("hgsdjf", 34234)
+
+print(id(my_tuple))
 
 print(my_tuple)
-
-https://www.afternerd.com/blog/difference-between-list-tuple/

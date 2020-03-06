@@ -1,6 +1,5 @@
 from prettytable import PrettyTable
 
-
 def print_table(list):
     p = PrettyTable()
     for row in list:
@@ -8,13 +7,13 @@ def print_table(list):
     print(p.get_string(header=False, border=False))
 
 def is_occupied(list, seat):
-    if seat == 2:
-        print("\nIts occupied!\n")
-    elif seat == 0:
+    if list[seat[0]][seat[1]] == 2:
+        print("\nIt's occupied!\n")
+    elif list[seat[0]][seat[1]] == 0:
         print("\nThere is no seat here!\n")
     else:
         print("\nThis seat is empty!\n")
-        response = input("Do you want to reserve this place? y/n  ")
+        response = input("Do you want to reserve this place? y/n")
         if response == "y":
             reserve(list, seat)
 
@@ -27,12 +26,12 @@ def reserve(list, seat):
         list[seat[0]][seat[1]] = 2
         print_table(list)
 
-def cancel_res(list, seat):
-    if list[seat[0]][seat[1]] == 2:
-        print("\nYou canceled your reservation!\n")
-        list[seat[0]][seat[1]] = 1
+def cancel_res(list, x, y):
+    if list[x][y] == 2:
+        print("\nYou cancelled your reservation!\n")
+        list[x][y] = 1
         print_table(list)
-    elif list[seat[0]][seat[1]] == 1:
+    elif list[x][y] == 1:
         print("\nThis place is already empty!\n")
     else:
         print("\nThere is no seat here!\n")
