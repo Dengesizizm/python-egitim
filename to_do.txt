@@ -2,7 +2,7 @@
 
 - print --> data_types
 
-- input --> input, str(), int()
+- input, str(), int() --> input
 
 - if, elif, else, (and, or, not) --> if
 
@@ -19,3 +19,13 @@
 - Function w/o arguments, w/ arguments, hypotenuse, return, lambda --> functions
 
 - import a function --> import
+
+
+theather = [[1, 1, 2, 2, 2, 2],
+            [0, 1, 1, 2, 1, 2],
+            [0, 2, 2, 1, 0, 0],
+            [2, 2, 2, 2, 2, 1],
+            [1, 1, 1, 2, 2, 1],
+            [2, 2, 2, 1, 1, 1]]
+
+https://www.afternerd.com/blog/difference-between-list-tuple/
